@@ -194,10 +194,11 @@ section .section .three .text3 {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-left: 5px;
+    line-height: 1.8rem;
 }
 
 .box input {
-    width: 650px;
+    width: 100%;
 }
 
 .box input[type=text]:focus {
@@ -214,7 +215,7 @@ section .section .three .text3 {
 }
 
 .box textarea {
-    width: 650px;   
+    width: 100%; 
 }
 
 textarea[type="text"]:focus {
