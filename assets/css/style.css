@@ -110,6 +110,7 @@ section .section .one .portfolio1 {
     color: white;
     text-indent: 0em;
     z-index: 1;
+    image-rendering: auto;
 }
 
 section .section .one .text {
@@ -119,7 +120,7 @@ section .section .one .text {
     color: white;
     text-indent: 0em;
     z-index: 2;
-    top: 350px;
+    top: 360px;
     width: 200px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
@@ -179,12 +180,15 @@ section .section .three .text3 {
     color: white;
     text-indent: 0em;
     z-index: 2;
-    top: 780px;
+    top: 800px;
     width: 200px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
 } 
 
+.one:hover, .two:hover, .three:hover {
+    cursor: progress; 
+}
 
 .box form {
     color: #777777;
@@ -279,7 +283,6 @@ footer {
     border-top: 6px solid #4aaaa5;
     flex-shrink: 3;
     flex: 0;
-
 }
 
 footer p {
