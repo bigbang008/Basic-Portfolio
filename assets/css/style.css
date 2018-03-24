@@ -270,7 +270,7 @@ section aside .logo {
     height: 25%;
 }
 
-.logo:hover, .logo:active {
+.logo:hover {
     transform: rotateY(180deg);
     backface-visibility: hidden;
 }
